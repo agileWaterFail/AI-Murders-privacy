@@ -32,7 +32,33 @@ We may employ third-party companies and individuals due to the following reasons
 We want to inform users of this app that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.  
 
 ### Security  
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over  the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.  
+We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.  
+
+
+Certainly, here's the revised GDPR compliance section of your mobile app's privacy policy with the inclusion of Firebase Firestore security measures:
+
+### GDPR Compliance
+#### Data Collection and Usage
+Our mobile app collects certain personal data to provide you with our services. This includes:
+
+Email: We collect your email address to create and manage your account.
+Username: Your chosen username is collected to personalize your experience within the app.
+Password: Your password is securely encrypted using Firebase Authentication for authentication purposes.
+UUID (Universally Unique Identifier): We generate a unique identifier to distinguish your device and provide personalized services.
+Uploaded Photos: When you upload photos within the app, we collect and store them to enhance your experience and provide the intended functionality.
+
+#### Data Security and Encryption
+We prioritize the security of your personal data. Here's how we ensure its protection:
+
+Transport Encryption: All data collected by our app, including email, username, UUID, and uploaded photos, is transmitted securely using HTTPS encryption protocols.
+Password Encryption: Your password is securely encrypted using Firebase Authentication, ensuring it remains protected against unauthorized access.
+Firestore Security Rules: We enforce strict security rules within Firebase Firestore to regulate access to and manipulation of data, ensuring that only authorized users can read and write data as per their permissions.
+Firebase App Check: We implement Firebase App Check to protect our backend resources, including Firebase Firestore, from abuse, such as unauthorized access, data scraping, and other malicious activities.
+
+#### User Control and Data Deletion
+We respect your right to control your personal data. Within the app, you have the following rights:
+
+Data Deletion: You can delete your account and associated data at any time through the app's settings. Upon deletion, all personal data collected, including email, username, UUID, and uploaded photos, will be permanently removed from our servers.
 
 ### Children’s Privacy  
 This app is not directed to or intended for use by anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.  
